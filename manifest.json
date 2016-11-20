@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "WuhZat",
+  "description": "This extension provides additional search options from the context menu.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "contextMenus",
+    "https://ajax.googleapis.com/",
+    "https://en.wikipedia.org/"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["wuhzat.js"]
+  }
+}
